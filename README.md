@@ -10,7 +10,7 @@ very soon...
 
 Example preview
 ======
-![Image of Google AMP](http://img-fotki.yandex.ru/get/29408/77677229.79/0_a5123_375367ee_orig.png)
+![Image of Google AMP](http://img-fotki.yandex.ru/get/59186/77677229.79/0_a5124_910234b6_orig.png)
 
 You can test:
 ======
