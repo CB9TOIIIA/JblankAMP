@@ -1,0 +1,40 @@
+/**
+ * J!Blank Template for Joomla by JBlank.pro (JBZoo.com)
+ *
+ * @package    JBlank
+ * @author     SmetDenis <admin@jbzoo.com>
+ * @copyright  Copyright (c) JBlank.pro
+ * @license    http://www.gnu.org/licenses/gpl.html GNU/GPL
+ * @link       http://jblank.pro/ JBlank project page
+ */
+/* just example of css import */
+
+/* just for test repaltive paths
+@import url('print.css');
+@import url('reset.css');
+*/
+
+/****************************************** FRONTEND STYLES ***********************************************************/
+
+/* classic clearfix */
+.clearfix {
+    display: block;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.url-path-test {
+    background: url('../images/test.png');
+}
+

@@ -1,0 +1,31 @@
+// Your own variables here
+
+
+// ***************************************** System colors *************************************************************
+// @myLoveColor: #a00;
+
+
+
+// ***************************************** Media queries for different devices ***************************************
+// more info https://gist.github.com/gitawego/5803557
+@print:       ~"print";
+                            // print version of website
+@mobile: ~"only screen and (min-width: 220px) and (max-width: 480px)";
+
+@tablet-mini: ~"only screen and (min-width: 481px) and (max-width: 767px)";
+
+@tablet:      ~"only screen and (min-width: 768px) and (max-width: 992px)";
+
+@desktop:     ~"only screen and (min-width: 993px) and (max-width: 1200px)";
+
+@desktop-xl:  ~"only screen and (min-width: 1200px)"; // hi-res laptops and desktops
+
+@desktop-xxl: ~"only screen and (min-width: 1366px)"; //  desktops
+
+// devices with retina display (http://css-tricks.com/snippets/css/retina-display-media-query/)
+@retina: ~"only screen and (-webkit-min-device-pixel-ratio: 2)",
+         ~"only screen and (   min--moz-device-pixel-ratio: 2)",
+         ~"only screen and (     -o-min-device-pixel-ratio: 2/1)",
+         ~"only screen and (        min-device-pixel-ratio: 2)",
+         ~"only screen and (           min-resolution: 192dpi)",
+         ~"only screen and (            min-resolution: 2dppx)";

@@ -1,0 +1,57 @@
+
+// J!Blank Template for Joomla by JBlank.pro (JBZoo.com)
+// Examples and test styles
+
+@import "misc/variables";   // your template vars
+@import "misc/mixins";      // custom mixin libs
+@import "misc/aliases";     // popuplar mixin's names
+@import "layouts/reset";    // Simple style resets
+@import "layouts/messages"; // Joomla messages (<jdoc:include type="message" />)
+@import "layouts/error";    // Joomla error page markup (when fatal error appeared)
+@import "layouts/debug";    // Joomla profiler's styles (when debug is mode on)
+@import "layouts/offline";  // Joomla offline page (when offline is mode on)
+@import "bootstrap/bootstrap.less";
+@import "mystyle/jbzoostyle.less";
+
+// ***************************************** FRONTEND STYLES ***********************************************************
+@red-color: #ff0000;
+@gray-color: #EFEFEF;
+@linkcolor: #007e93;
+@bledgreen: #E9FAEB;
+@bledyellow: #F7F9D3;
+@bledline: #007C91;
+@bledcolora: #033d43;
+
+// classic clear fix
+.clearfix {
+    .clearfix();
+}
+
+
+//test
+
+// include own files
+//@import "layouts/some-layout.less";
+
+// OR write your code here!
+body { font-family: Tahoma, Arial, Geneva, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+// ***************************************** MEDIA QUERIES *************************************************************
+// see variables.less
+@media @print       { @import "media/print.less";       }
+//@media @mobile-mini { @import "media/mobile-mini.less"; }
+@media @mobile      { @import "media/mobile.less";      }
+@media @tablet-mini { @import "media/tablet-mini.less"; }
+@media @tablet      { @import "media/tablet.less";      }
+@media @desktop     { @import "media/desktop.less";     }
+@media @desktop-xl  { @import "media/desktop-xl.less";  }
+@media @retina      { @import "media/retina.less";      }
+
+// Combo! =)
+@media @retina, @tablet {
+    // @import "media/retina-tablet.less";
+}

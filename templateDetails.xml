@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.7//DTD template 1.0//EN"
+    "http://www.joomla.org/xml/dtd/1.7/template-install.dtd">
+
+<extension version="2.5" type="template" client="site" method="upgrade">
+    <name>amproject</name>
+    <creationDate>2016 02</creationDate>
+    <author>amproject</author>
+    <authorEmail>cb9toiiia@gmail.com</authorEmail>
+    <authorUrl>https://github.com/CB9TOIIIA/jblankamp</authorUrl>
+    <copyright>Copyright (C) 2011 - 2016 J!Blank.Pro, All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+    <version>3.0.6</version>
+    <description><![CDATA[
+        <p>Joomla blank template for fast developing your own design.</p>
+        <ul>
+            <li>
+                See full tutorial on <a href="http://en.jblank.pro/" target="_blank">J!Blank.pro (eng)</a> /
+                <a href="http://jblank.pro/" target="_blank">J!Blank.pro (rus)</a> websites.
+            </li>
+            <li>
+                Project amproject on <a href="https://github.com/CB9TOIIIA/jblankamp" target="_blank">Github.com</a>
+            </li>
+        </ul>
+    ]]></description>
+
+    <files>
+        <folder>css</folder>
+        <folder>fonts</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+        <folder>less</folder>
+        <folder>partial</folder>
+        <folder>php</folder>
+        <folder>scss</folder>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>favicon.ico</filename>
+        <filename>index.html</filename>
+        <filename>index.php</filename>
+        <filename>offline.php</filename>
+        <filename>raw.php</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+
+    <positions>
+        <position>pre_component</position>
+        <position>post_component</position>
+    </positions>
+
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                <field name="less_processor" type="radio" default="gpeasy" label="Less processor lib">
+                    <option value="gpeasy">lessphp.gpeasy.com (recommended)</option>
+                    <option value="leafo">leafo.net/lessphp</option>
+                    <option value="js">lesscss.org (JS in Browser, no cache!)</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>

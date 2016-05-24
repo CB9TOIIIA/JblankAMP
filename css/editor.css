@@ -1,0 +1,106 @@
+/**
+ * J!Blank Template for Joomla by JBlank.pro (JBZoo.com)
+ *
+ * @package    JBlank
+ * @author     SmetDenis <admin@jbzoo.com>
+ * @copyright  Copyright (c) JBlank.pro
+ * @license    http://www.gnu.org/licenses/gpl.html GNU/GPL
+ * @link       http://jblank.pro/ JBlank project page
+ */
+
+body {
+    background: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5, h6 {
+    font-size: 14px;
+}
+
+strong {
+    color: #555;
+}
+
+em {
+    color: #d05;
+}
+em strong {
+    color: #d05;
+}
+
+a, a:link, a:visited {
+    color: #00f;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+code, kbd, samp, pre, tt, var {
+    font-size: 14px;
+    font-family: "Lucida Console";
+}
+
+code {
+    border: 1px solid #c00;
+    padding: 2px;
+}
+
+pre {
+    border: 1px dashed #aaa;
+    line-height: 18px;
+    background: #eee;
+    color: #c33;
+    padding: 3px;
+    margin: 6px 0;
+}
+
+/* Specific styles for Joomla features */
+.caption {
+    padding: 0 10px 0 10px;
+}
+
+.caption img {
+    border: 1px solid #ccc;
+}
+
+.caption p {
+    font-size: .90em;
+    color: #666;
+    text-align: center;
+}
+
+#system-readmore {
+    border: red dashed 1px;
+    color: red;
+}
+
+.system-pagebreak {
+    border: gray dashed 1px;
+    color: gray;
+}
