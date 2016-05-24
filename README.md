@@ -1,17 +1,9 @@
-J!Blank.pro
+Amproject by J!Blank template
 ======
-Joomla blank template for fast developing your own theme.
-
-
-Website
-======
-English - http://en.jblank.pro/
-
-Russian - http://jblank.pro/
+Demo template joomla - Google AMP For JBZoo // JoomlaDAY 2016 Russia / Moscow
+> example full.php for news template JBZoo
 
 
 Live Demo
 ======
-http://jblank.pro/demo
-
-
+very soon...
