@@ -1,7 +1,7 @@
 Amproject на основе шаблона J!Blank Template for Joomla by JBlank.pro (JBZoo.com)
 ======
 ### Автор - [Евгений Копылов](https://vk.com/joomla)  - специально для JoomlaDAY 2016
-> Это лишь пример как можно сделать шаблон Google AMP на J!Blank // Лицензия MIT (предоставляется «Как есть»)
+Это лишь пример как можно сделать шаблон Google AMP на J!Blank // Лицензия MIT (предоставляется «Как есть»)
 Демо шаблон Joomla - Google AMP для JBZoo // JoomlaDAY 2016 Россия / Москва
 > в папке есть пример full.php для новостника на CCK JBZoo
 
